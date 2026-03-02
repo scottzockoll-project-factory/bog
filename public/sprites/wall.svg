@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Base -->
+  <rect width="32" height="32" fill="#4a5568"/>
+  <!-- Row 1 bricks -->
+  <rect x="1"  y="1"  width="14" height="9"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <rect x="17" y="1"  width="14" height="9"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <!-- Row 2 bricks (offset) -->
+  <rect x="1"  y="12" width="8"  height="9"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <rect x="11" y="12" width="10" height="9"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <rect x="23" y="12" width="8"  height="9"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <!-- Row 3 bricks -->
+  <rect x="1"  y="23" width="14" height="8"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+  <rect x="17" y="23" width="14" height="8"  rx="1" fill="#5a6a7e" stroke="#3a4557" stroke-width="0.5"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Crown spikes -->
+  <polygon points="8,14 5,4 11,10" fill="#ffd700" stroke="#e6b800" stroke-width="0.5"/>
+  <polygon points="16,12 13,2 19,2" fill="#ffd700" stroke="#e6b800" stroke-width="0.5"/>
+  <polygon points="24,14 21,10 27,4" fill="#ffd700" stroke="#e6b800" stroke-width="0.5"/>
+  <!-- Body -->
+  <ellipse cx="16" cy="23" rx="13" ry="8" fill="#f7a8c4" stroke="#e8879e" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="16" cy="14" r="11" fill="#f7a8c4" stroke="#e8879e" stroke-width="1.5"/>
+  <!-- Crown band -->
+  <rect x="6" y="11" width="20" height="4" rx="2" fill="#ffd700" stroke="#e6b800" stroke-width="0.5"/>
+  <!-- Angry eyebrows -->
+  <path d="M8 10.5 Q11 8.5 13.5 9.5" stroke="#c0306e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M18.5 9.5 Q21 8.5 24 10.5" stroke="#c0306e" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Left eye -->
+  <circle cx="11" cy="14" r="2.8" fill="white"/>
+  <circle cx="11.6" cy="14.4" r="1.8" fill="#a02020"/>
+  <circle cx="12.3" cy="13.7" r="0.55" fill="white"/>
+  <!-- Right eye -->
+  <circle cx="21" cy="14" r="2.8" fill="white"/>
+  <circle cx="21.6" cy="14.4" r="1.8" fill="#a02020"/>
+  <circle cx="22.3" cy="13.7" r="0.55" fill="white"/>
+  <!-- Beak -->
+  <ellipse cx="16" cy="19" rx="3" ry="2" fill="#f4a261"/>
+  <path d="M13 19 Q16 21 19 19" stroke="#d4834a" stroke-width="0.7" fill="none"/>
+  <!-- Angry blush -->
+  <ellipse cx="7" cy="17.5" rx="2.5" ry="1.5" fill="#e84393" opacity="0.45"/>
+  <ellipse cx="25" cy="17.5" rx="2.5" ry="1.5" fill="#e84393" opacity="0.45"/>
+</svg>

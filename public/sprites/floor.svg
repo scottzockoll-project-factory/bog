@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Base -->
+  <rect width="32" height="32" fill="#e8e0d0"/>
+  <!-- Subtle border lines -->
+  <line x1="0"  y1="0"  x2="32" y2="0"  stroke="#d4c9b0" stroke-width="0.6"/>
+  <line x1="0"  y1="0"  x2="0"  y2="32" stroke="#d4c9b0" stroke-width="0.6"/>
+  <line x1="32" y1="0"  x2="32" y2="32" stroke="#d4c9b0" stroke-width="0.6"/>
+  <line x1="0"  y1="32" x2="32" y2="32" stroke="#d4c9b0" stroke-width="0.6"/>
+  <!-- Corner dots -->
+  <circle cx="1.5" cy="1.5" r="1.2" fill="#c8bda0"/>
+  <circle cx="30.5" cy="1.5" r="1.2" fill="#c8bda0"/>
+  <circle cx="1.5" cy="30.5" r="1.2" fill="#c8bda0"/>
+  <circle cx="30.5" cy="30.5" r="1.2" fill="#c8bda0"/>
+</svg>

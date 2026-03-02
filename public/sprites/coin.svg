@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Shadow -->
+  <ellipse cx="16" cy="29.5" rx="10" ry="2" fill="rgba(0,0,0,0.18)"/>
+  <!-- Coin body -->
+  <circle cx="16" cy="15" r="12" fill="#f9ca24" stroke="#e6b800" stroke-width="1.5"/>
+  <!-- Inner ring -->
+  <circle cx="16" cy="15" r="9" fill="none" stroke="#e6b800" stroke-width="1"/>
+  <!-- "G" for Goofe -->
+  <text x="16" y="20.5" font-size="13" font-family="serif" font-weight="bold"
+        fill="#b8860b" text-anchor="middle">G</text>
+  <!-- Highlight -->
+  <ellipse cx="11" cy="10" rx="3.5" ry="2" fill="white" opacity="0.35" transform="rotate(-30 11 10)"/>
+</svg>

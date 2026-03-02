@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Outer glow -->
+  <circle cx="16" cy="16" r="12" fill="#74b9ff" opacity="0.2"/>
+  <!-- Main body -->
+  <circle cx="16" cy="16" r="8" fill="#74b9ff" stroke="#4a8fd6" stroke-width="1"/>
+  <!-- Inner glow -->
+  <circle cx="16" cy="16" r="5" fill="#a8d8ff" opacity="0.6"/>
+  <!-- Highlight -->
+  <ellipse cx="13" cy="13" rx="2.5" ry="1.5" fill="white" opacity="0.6"/>
+</svg>

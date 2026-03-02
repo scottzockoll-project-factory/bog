@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Key ring -->
+  <circle cx="11" cy="13" r="8" fill="#badc58" stroke="#82b32a" stroke-width="1.5"/>
+  <circle cx="11" cy="13" r="5" fill="none" stroke="#82b32a" stroke-width="1.5"/>
+  <!-- Key shaft -->
+  <rect x="16" y="11" width="14" height="4" rx="2" fill="#badc58" stroke="#82b32a" stroke-width="1"/>
+  <!-- Teeth -->
+  <rect x="22" y="15" width="3" height="3.5" rx="0.8" fill="#badc58" stroke="#82b32a" stroke-width="0.8"/>
+  <rect x="26" y="15" width="3" height="2.5" rx="0.8" fill="#badc58" stroke="#82b32a" stroke-width="0.8"/>
+  <!-- Ring shine -->
+  <ellipse cx="8.5" cy="9.5" rx="2" ry="1.5" fill="white" opacity="0.35" transform="rotate(-20 8.5 9.5)"/>
+</svg>
