@@ -20,22 +20,21 @@ jobs:
         run: npm ci
 
       - name: Install CLI tools
-        run: npm install -g vercel neonctl
+        run: npm install -g vercel
 
-
-      - name: Provision frontend
+      - name: Provision frontend (first deploy only)
+        if: ${{ !hashFiles('.vercel/project.json') }}
         run: chmod +x scripts/provision-frontend.sh && scripts/provision-frontend.sh
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_TEAM_ID: ${{ secrets.VERCEL_TEAM_ID }}
+          VERCEL_FRAMEWORK: vite
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           ROUTE53_HOSTED_ZONE_ID: ${{ secrets.ROUTE53_HOSTED_ZONE_ID }}
 
-
-
-      - name: Deploy frontend - vercel --prod --yes --token $VERCEL_TOKE
-        run: vercel --prod --yes --token $VERCEL_TOKEN
+      - name: Deploy to Vercel
+        run: vercel --prod --yes --token $VERCEL_TOKEN --scope $VERCEL_TEAM_ID
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-
+          VERCEL_TEAM_ID: ${{ secrets.VERCEL_TEAM_ID }}
